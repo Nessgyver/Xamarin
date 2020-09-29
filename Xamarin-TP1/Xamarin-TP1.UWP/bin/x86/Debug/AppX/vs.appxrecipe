@@ -30,13 +30,13 @@
     <AppXManifest Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-28T11:25:28.462</Modified>
+      <Modified>2020-09-29T12:46:23.387</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\bin\x86\Debug\Xamarin-TP1.UWP.exe">
       <PackagePath>entrypoint\Xamarin-TP1.UWP.exe</PackagePath>
-      <Modified>2020-09-28T11:25:17.750</Modified>
+      <Modified>2020-09-29T12:46:21.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damro\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\bin\Debug\netstandard2.0\Xamarin-TP1.dll">
       <PackagePath>Xamarin-TP1.dll</PackagePath>
-      <Modified>2020-09-29T07:46:28.665</Modified>
+      <Modified>2020-09-29T13:05:26.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damro\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -733,6 +733,10 @@
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.6.0.1141\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-07-14T00:19:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\favorite.png">
+      <PackagePath>Assets\favorite.png</PackagePath>
+      <Modified>2020-09-28T14:22:42.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -748,6 +752,22 @@
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-09-28T11:14:08.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\pencil.png">
+      <PackagePath>Assets\pencil.png</PackagePath>
+      <Modified>2020-09-28T14:22:42.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\reply.png">
+      <PackagePath>Assets\reply.png</PackagePath>
+      <Modified>2020-09-28T14:22:42.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\retweet.png">
+      <PackagePath>Assets\retweet.png</PackagePath>
+      <Modified>2020-09-28T14:22:42.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\search.png">
+      <PackagePath>Assets\search.png</PackagePath>
+      <Modified>2020-09-28T14:22:42.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
@@ -879,11 +899,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-28T11:25:17.341</Modified>
+      <Modified>2020-09-29T12:46:20.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-28T11:25:17.354</Modified>
+      <Modified>2020-09-29T12:46:20.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -899,11 +919,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-28T11:25:25.335</Modified>
+      <Modified>2020-09-29T11:57:23.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\bin\x86\Debug\Core\Xamarin-TP1.UWP.exe">
       <PackagePath>Xamarin-TP1.UWP.exe</PackagePath>
-      <Modified>2020-09-28T11:25:28.359</Modified>
+      <Modified>2020-09-29T12:46:23.369</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

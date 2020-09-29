@@ -12,3 +12,4 @@ H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\XamlC.st
 H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.dll
 H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\ref\Xamarin-TP1.dll
 H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.pdb
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Tweet.xaml.g.cs
