@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_TP1.MainPage">
+
+    <StackLayout>
+        <StackLayout BackgroundColor="#58B0F0" Orientation="Horizontal" Margin="10" Padding="25" VerticalOptions="Start">
+            <Label Text="Nouveau" HorizontalOptions="StartAndExpand"></Label>
+            <Label Text="Accueil" HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="Rechercher" HorizontalOptions="EndAndExpand"></Label>
+        </StackLayout>
+        <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill">
+            <Grid VerticalOptions="Start" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="75"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout BackgroundColor="AliceBlue" 
+                                 Grid.Row="0" Grid.RowSpan="2"
+                                 Grid.Column="0"/>
+                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                        <Label Text="auteur" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="Id" HorizontalOptions="CenterAndExpand"/>
+                        <Label Text="29/09/2020" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                    <Label Text="jsbdkqjb sjdbqklj qskjdbqkjsbcfnklsndfsl dnklfsndl dnfls lsdnf lskdn flskldfksldfksml lskdn flskld fnsld ks dqkljm qsjdbqksjbdkqjb" 
+                           Grid.Row="1" Grid.Column="1"/>
+                </Grid>
+                
+                <Button Text="Répondre" Grid.Row="1" Grid.Column="0"/>
+                <Button Text="Retweet" Grid.Row="1" Grid.Column="1"/>
+                <Button Text="Favoris" Grid.Row="1" Grid.Column="2"/>
+                <StackLayout BackgroundColor="LightGray" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"/>
+            </Grid>
+        </ScrollView>
+        <Grid  HeightRequest="75" VerticalOptions="EndAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Fil" Grid.Column="0"/>
+            <Button Text="Notification" Grid.Column="1"></Button>
+            <Button Text="Messages" Grid.Column="2"></Button>
+            <Button Text="Moi" Grid.Column="3"></Button>
+        </Grid>
+    </StackLayout>
+
+
+</ContentPage>

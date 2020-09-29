@@ -1,0 +1,1 @@
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1.UWP\Xamarin-TP1.UWP.csproj;x86

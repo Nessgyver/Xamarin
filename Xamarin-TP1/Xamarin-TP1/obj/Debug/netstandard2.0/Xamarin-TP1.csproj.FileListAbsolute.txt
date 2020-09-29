@@ -1,0 +1,14 @@
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\bin\Debug\netstandard2.0\Xamarin-TP1.deps.json
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\bin\Debug\netstandard2.0\Xamarin-TP1.dll
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\bin\Debug\netstandard2.0\ref\Xamarin-TP1.dll
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\bin\Debug\netstandard2.0\Xamarin-TP1.pdb
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.csprojAssemblyReference.cache
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\App.xaml.g.cs
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.AssemblyInfoInputs.cache
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.AssemblyInfo.cs
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.csproj.CoreCompileInputs.cache
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\XamlC.stamp
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.dll
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\ref\Xamarin-TP1.dll
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.pdb
