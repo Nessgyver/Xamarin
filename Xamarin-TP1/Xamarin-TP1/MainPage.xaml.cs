@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin_TP1.models;
+using Xamarin_TP1.Services;
 
 namespace Xamarin_TP1
 {
@@ -48,11 +50,23 @@ namespace Xamarin_TP1
 
             if(isValidId && isValidPassword)
             {
-                this.form.IsVisible = false;
-                this.tweet_feed.IsVisible = true;
+                if (DependencyService.Get<ITwitterService>().Authenticate(id, password)){
+                    this.form.IsVisible = false;
+                    this.tweet_feed.IsVisible = true;
+                    List<TweetMsg> tweets = DependencyService.Get<ITwitterService>().GetTweets("yololo");
+                    foreach (var tweet in tweets)
+                    {
+                        Tweet tweetBox = new Tweet();
+                        tweetBox.LoadData(tweet);
+                        this.tweetFeed.Children.Add(tweetBox);
+                    }
+                }
+                else
+                {
+                    this.error_id.IsVisible = true;
+                    this.error_id.Text = "L'identifiant et/ou le mot de passe ne correspondent pas à toto:totopwd";
+                }
             }
-            Debug.WriteLine("btn-connect cliqué");
-
         }
     }
 }

@@ -30,11 +30,11 @@
                                  Grid.Row="0" Grid.RowSpan="2"
                                  Grid.Column="0"/>
                 <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
-                    <Label Text="auteur" HorizontalOptions="StartAndExpand"/>
-                    <Label Text="Id" HorizontalOptions="CenterAndExpand"/>
-                    <Label Text="29/09/2020" HorizontalOptions="EndAndExpand"/>
+                    <Label x:Name="pseudoUtilisateur" HorizontalOptions="StartAndExpand"/>
+                    <Label x:Name="identifiantUtilisateur" HorizontalOptions="CenterAndExpand"/>
+                    <Label x:Name="dateDeCreation" HorizontalOptions="EndAndExpand"/>
                 </StackLayout>
-                <Label Text="jsbdkqjb sjdbqklj qskjdbqkjsbcfnklsndfsl dnklfsndl dnfls lsdnf lskdn flskldfksldfksml lskdn flskld fnsld ks dqkljm qsjdbqksjbdkqjb" 
+                <Label x:Name="texte"
                            Grid.Row="1" Grid.Column="1"/>
             </Grid>
 

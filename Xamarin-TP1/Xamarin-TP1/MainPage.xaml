@@ -30,10 +30,7 @@
         </ContentView>
         
         <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill" x:Name="tweet_feed" IsVisible="false">
-            <StackLayout>
-                <local:Tweet/>
-                <local:Tweet/>
-                <local:Tweet/>
+            <StackLayout x:Name="tweetFeed">
             </StackLayout>
         </ScrollView>
         <Grid  HeightRequest="75" VerticalOptions="EndAndExpand">
