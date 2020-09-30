@@ -8,27 +8,28 @@
              x:Class="Xamarin_TP1.MainPage"
              >
     
-
     <StackLayout>
         <StackLayout BackgroundColor="#58B0F0" Orientation="Horizontal" Margin="10, 25" Padding="25" VerticalOptions="Start">
             <ImageButton Source=".\assets\pencil.png" HorizontalOptions="StartAndExpand" WidthRequest="25"></ImageButton>
             <Label Text="Accueil" HorizontalOptions="CenterAndExpand" FontSize="20" FontAttributes="Bold"></Label>
             <ImageButton Source=".\assets\search.png" HorizontalOptions="EndAndExpand" WidthRequest="25"></ImageButton>
         </StackLayout>
-        <ContentView>
+        <ContentView x:Name="form">
             <StackLayout>
                 <Label Text="Connexion à Twitter" HorizontalOptions="Center"/>
-                <Entry Placeholder="Identifiant Twitter"/>
-                <Entry IsPassword="True" Placeholder="Mot de Passe"/>
+                <Entry Placeholder="Identifiant Twitter" x:Name="id"/>
+                <Entry IsPassword="True" Placeholder="Mot de Passe" x:Name="password"/>
                 <StackLayout Orientation="Horizontal">
-                    <Switch  IsToggled="True" HorizontalOptions="Start"/>
-                    <Label Text="Mémoriser mes informations" HorizontalOptions="Start"/>
+                    <Switch  IsToggled="True" HorizontalOptions="Start" x:Name="remember_me"/>
+                    <Label Text="Mémoriser mes informations" HorizontalOptions="Start" VerticalOptions="CenterAndExpand"/>
                 </StackLayout>
                 <Button Text="Se connecter" HorizontalOptions="FillAndExpand" x:Name="btn_connect"/>
+                <Label x:Name="error_id" IsVisible="False" BackgroundColor="red" TextColor="White"/>
+                <Label x:Name="error_password" IsVisible="False" BackgroundColor="red" TextColor="White"/>
             </StackLayout>
         </ContentView>
         
-        <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill">
+        <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill" x:Name="tweet_feed" IsVisible="false">
             <StackLayout>
                 <local:Tweet/>
                 <local:Tweet/>
