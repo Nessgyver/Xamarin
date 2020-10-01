@@ -3,17 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:local ="clr-namespace:Xamarin_TP1" 
+             xmlns:local ="clr-namespace:Xamarin_TP1.Views" 
              mc:Ignorable="d"
              x:Class="Xamarin_TP1.MainPage"
              >
-    
+
     <StackLayout>
-        <StackLayout BackgroundColor="#58B0F0" Orientation="Horizontal" Margin="10, 25" Padding="25" VerticalOptions="Start">
-            <ImageButton Source=".\assets\pencil.png" HorizontalOptions="StartAndExpand" WidthRequest="25"></ImageButton>
-            <Label Text="Accueil" HorizontalOptions="CenterAndExpand" FontSize="20" FontAttributes="Bold"></Label>
-            <ImageButton Source=".\assets\search.png" HorizontalOptions="EndAndExpand" WidthRequest="25"></ImageButton>
-        </StackLayout>
+
+        <local:MenuTopView/>
         <ContentView x:Name="form">
             <StackLayout>
                 <Label Text="Connexion à Twitter" HorizontalOptions="Center"/>
@@ -34,18 +31,7 @@
             <StackLayout x:Name="tweetFeed">
             </StackLayout>
         </ScrollView>
-        <Grid  HeightRequest="75" VerticalOptions="EndAndExpand">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Button Text="Fil" Grid.Column="0"/>
-            <Button Text="Notification" Grid.Column="1"></Button>
-            <Button Text="Messages" Grid.Column="2"></Button>
-            <Button Text="Moi" Grid.Column="3"></Button>
-        </Grid>
+        <local:MenuBottomView VerticalOptions="EndAndExpand"/>
     </StackLayout>
     
 </ContentPage>

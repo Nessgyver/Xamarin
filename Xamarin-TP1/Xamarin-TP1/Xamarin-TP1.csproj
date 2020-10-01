@@ -16,13 +16,28 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Tweet.xaml.cs">
+    <Compile Update="Pages\TweetPage.xaml.cs">
+      <DependentUpon>TweetPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Tweet.xaml.cs">
       <DependentUpon>Tweet.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MenuTopView.xaml.cs">
+      <DependentUpon>MenuTopView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MenuBottomView.xaml.cs">
+      <DependentUpon>MenuBottomView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Tweet.xaml">
+    <EmbeddedResource Update="Views\Tweet.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MenuTopView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MenuBottomView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

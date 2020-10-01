@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_TP1.Views.MenuBottomView">
+  <ContentView.Content>
+      <StackLayout>
+            <Grid  HeightRequest="75" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Text="Fil" Grid.Column="0"/>
+                <Button Text="Notification" Grid.Column="1"></Button>
+                <Button Text="Messages" Grid.Column="2"></Button>
+                <Button Text="Moi" Grid.Column="3"></Button>
+            </Grid>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

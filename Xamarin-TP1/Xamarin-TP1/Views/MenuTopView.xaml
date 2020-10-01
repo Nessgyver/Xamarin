@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_TP1.Views.MenuTopView">
+    <ContentView.Content>
+        <StackLayout BackgroundColor="#58B0F0" Orientation="Horizontal" Margin="10, 25" Padding="25" VerticalOptions="Start">
+            <ImageButton Source=".\assets\pencil.png" HorizontalOptions="StartAndExpand" WidthRequest="25"></ImageButton>
+            <Label Text="Accueil" HorizontalOptions="CenterAndExpand" FontSize="20" FontAttributes="Bold"></Label>
+            <ImageButton Source=".\assets\search.png" HorizontalOptions="EndAndExpand" WidthRequest="25"></ImageButton>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

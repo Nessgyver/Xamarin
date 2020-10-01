@@ -8,7 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin_TP1.models;
 
-namespace Xamarin_TP1
+namespace Xamarin_TP1.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Tweet : ContentView
@@ -16,14 +16,6 @@ namespace Xamarin_TP1
         public Tweet()
         {
             InitializeComponent();
-        }
-
-        internal void LoadData(TweetMsg tweet)
-        {
-            this.identifiantUtilisateur.Text = tweet.IdentifiantUtilisateur;
-            this.dateDeCreation.Text = tweet.DateDeCreation.ToString();
-            this.texte.Text = tweet.Texte;
-            this.pseudoUtilisateur.Text = tweet.PseudoUtilisateur;
         }
     }
 }
