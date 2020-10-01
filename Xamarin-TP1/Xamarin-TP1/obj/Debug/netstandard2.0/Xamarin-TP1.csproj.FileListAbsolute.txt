@@ -16,3 +16,4 @@ H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Views\Me
 H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Views\MenuTopView.xaml.g.cs
 H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Pages\TweetPage.xaml.g.cs
 H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Xamarin-TP1.csprojAssemblyReference.cache
+H:\Xamarin\Xamarin-TP1\Xamarin-TP1\Xamarin-TP1\obj\Debug\netstandard2.0\Views\ConnectView.xaml.g.cs

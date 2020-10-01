@@ -11,26 +11,9 @@
     <StackLayout>
 
         <local:MenuTopView/>
-        <ContentView x:Name="form">
-            <StackLayout>
-                <Label Text="Connexion à Twitter" HorizontalOptions="Center"/>
-                <Entry Placeholder="Identifiant Twitter" x:Name="id"/>
-                <Entry IsPassword="True" Placeholder="Mot de Passe" x:Name="password"/>
-                <StackLayout Orientation="Horizontal">
-                    <Switch  IsToggled="True" HorizontalOptions="Start" x:Name="remember_me"/>
-                    <Label Text="Mémoriser mes informations" HorizontalOptions="Start" VerticalOptions="CenterAndExpand"/>
-                </StackLayout>
-                <Button Text="Se connecter" HorizontalOptions="FillAndExpand" x:Name="btn_connect"/>
-                <Label x:Name="error_id" IsVisible="False" BackgroundColor="red" TextColor="White"/>
-                <Label x:Name="error_password" IsVisible="False" BackgroundColor="red" TextColor="White"/>
-                <Label x:Name="error_connect" IsVisible="False" BackgroundColor="red" TextColor="White"/>
-            </StackLayout>
-        </ContentView>
-        
-        <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill" x:Name="tweet_feed" IsVisible="false">
-            <StackLayout x:Name="tweetFeed">
-            </StackLayout>
-        </ScrollView>
+
+        <local:ConnectView/>
+
         <local:MenuBottomView VerticalOptions="EndAndExpand"/>
     </StackLayout>
     
