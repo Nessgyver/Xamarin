@@ -26,6 +26,7 @@
                 <Button Text="Se connecter" HorizontalOptions="FillAndExpand" x:Name="btn_connect"/>
                 <Label x:Name="error_id" IsVisible="False" BackgroundColor="red" TextColor="White"/>
                 <Label x:Name="error_password" IsVisible="False" BackgroundColor="red" TextColor="White"/>
+                <Label x:Name="error_connect" IsVisible="False" BackgroundColor="red" TextColor="White"/>
             </StackLayout>
         </ContentView>
         
