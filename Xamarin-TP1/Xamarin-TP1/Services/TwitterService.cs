@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Xamarin_TP1.Services;
-using Xamarin_TP1.models;
+using Xamarin_TP1.Models;
 
 [assembly: Xamarin.Forms.Dependency(typeof(TwitterService))]
 namespace Xamarin_TP1.Services

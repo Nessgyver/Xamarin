@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin_TP1.models;
+using Xamarin_TP1.Models;
 using Xamarin_TP1.Services;
 using Xamarin_TP1.Views;
 

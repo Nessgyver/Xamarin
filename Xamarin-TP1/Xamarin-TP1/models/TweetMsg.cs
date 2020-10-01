@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Xamarin_TP1.models
+namespace Xamarin_TP1.Models
 {
     public class TweetMsg
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Xamarin_TP1.models;
+using Xamarin_TP1.Models;
 
 namespace Xamarin_TP1.Services
 {

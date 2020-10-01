@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamarin_TP1.models;
+using Xamarin_TP1.Models;
 
 namespace Xamarin_TP1.Views
 {
